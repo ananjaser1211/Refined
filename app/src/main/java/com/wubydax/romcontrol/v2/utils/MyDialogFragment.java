@@ -76,8 +76,6 @@ public class MyDialogFragment extends DialogFragment implements View.OnClickList
                 return getRebootMenuDialog();
             case Constants.THEME_DIALOG_REQUEST_CODE:
                 return getThemeChooserDialog();
-            case Constants.CHANGELOG_DIALOG_REQUEST_CODE:
-                return getChangelogDialog();
             case Constants.BACKUP_OR_RESTORE_DIALOG_REQUEST_CODE:
                 return getBackupRestoreChooserDialog();
             case Constants.RESTORE_FILE_SELECTOR_DIALOG_REQUEST_CODE:
@@ -167,17 +165,6 @@ public class MyDialogFragment extends DialogFragment implements View.OnClickList
                         }
                     }
                 })
-                .create();
-    }
-
-    private Dialog getChangelogDialog() {
-        RecyclerView recyclerView = new RecyclerView(getActivity());
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
-        recyclerView.setAdapter(new MyAdapter(getActivity()));
-        return new AlertDialog.Builder(getActivity())
-                .setTitle(String.format(Locale.getDefault(), getString(R.string.changelog_version_title), getString(R.string.rom_version_for_changelog).toUpperCase()))
-                .setView(recyclerView)
-                .setPositiveButton(android.R.string.ok, null)
                 .create();
     }
 
@@ -276,38 +263,4 @@ public class MyDialogFragment extends DialogFragment implements View.OnClickList
         View getDecorView();
     }
 
-    private class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
-        private Context mContext;
-        private String[] mChangelogItems;
-
-        MyAdapter(Context context) {
-            mContext = context;
-            mChangelogItems = mContext.getResources().getStringArray(R.array.changelog_items);
-        }
-
-        @Override
-        public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View mainView = LayoutInflater.from(mContext).inflate(R.layout.changelog_item, parent, false);
-            return new MyViewHolder(mainView);
-        }
-
-        @Override
-        public void onBindViewHolder(MyViewHolder holder, int position) {
-            holder.mTextView.setText(mChangelogItems[position]);
-        }
-
-        @Override
-        public int getItemCount() {
-            return mChangelogItems != null ? mChangelogItems.length : 0;
-        }
-
-        class MyViewHolder extends RecyclerView.ViewHolder {
-            TextView mTextView;
-
-            MyViewHolder(View itemView) {
-                super(itemView);
-                mTextView = (TextView) itemView.findViewById(R.id.changelogText);
-            }
-        }
-    }
 }

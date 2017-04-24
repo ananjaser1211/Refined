@@ -642,8 +642,8 @@ public final class R {
 		public static final int design_fab_background = 0x7f020053;
 		public static final int design_ic_visibility = 0x7f020054;
 		public static final int design_snackbar_background = 0x7f020055;
-		public static final int navigation_empty_icon = 0x7f02007c;
-		public static final int notification_template_icon_bg = 0x7f02009d;
+		public static final int navigation_empty_icon = 0x7f02007e;
+		public static final int notification_template_icon_bg = 0x7f02009f;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f1000a0;
@@ -875,7 +875,7 @@ public final class R {
 		public static final int abc_toolbar_collapse_description = 0x7f090012;
 		public static final int appbar_scrolling_view_behavior = 0x7f090026;
 		public static final int bottom_sheet_behavior = 0x7f09002c;
-		public static final int character_counter_pattern = 0x7f090030;
+		public static final int character_counter_pattern = 0x7f09002f;
 		public static final int search_menu_title = 0x7f090013;
 		public static final int status_bar_notification_info_overflow = 0x7f090014;
 	}

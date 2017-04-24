@@ -2,98 +2,52 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    
-	<PreferenceCategory  android:title="6thGear Reboot right ">
 
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Right reboot icon " android:key="gear_reboot_view_visibility" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Right reboot icon color" android:key="gear_reboot_view_color" android:defaultValue="\#00000000" alphaSlider="true" hexValue="true" />
-    
-	</PreferenceCategory>
-
-
-	<PreferenceCategory  android:title="6thGear Reboot left  ">
-
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Left reboot icon" android:key="reboot_view_visibility" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Left reboot icon color" android:key="reboot_view_color" android:defaultValue="\#00000000" alphaSlider="true" hexValue="true" />
-    
-	</PreferenceCategory>
-	
-	
-	<PreferenceCategory  android:title="6thGear Reboot PD  ">
-
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="PD reboot icon " android:key="gear_PD_reboot_view_visibility" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="PD reboot icon color" android:key="gear_PD_reboot_view_color" android:defaultValue="\#00000000" alphaSlider="true" hexValue="true" />
-    
-	</PreferenceCategory>
-	
-	
-	
-	    <PreferenceCategory  android:title="Display Features">
-            <PreferenceScreen android:persistent="false" android:title="Content scaling" android:key="display_scaling">
-                <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DisplayScalingActivity" />
-            </PreferenceScreen>
-			<PreferenceScreen android:persistent="false" android:title="Private mode" android:key="key_private_mode">
-                <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.personalpage.PersonalPageSettings" />
-            </PreferenceScreen>
-			<PreferenceScreen android:persistent="false" android:title="Galaxy Labs" android:key="galaxy_labs" android:summary="Show all apps on Home screen">
-                <intent android:targetPackage="com.samsung.android.app.galaxylabs" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.app.galaxylabs.GalaxyLabsMainActivity" />
-            </PreferenceScreen>
-        </PreferenceCategory>
-	
-	<com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Increase touch sensitivity" android:key="auto_adjust_touch" android:summary="Use your device while wearing gloves by increasing the touch sensitivity of the screen." android:defaultValue="false" />
-        
-	
-	
-	
-	
-	
-	
 	<PreferenceCategory  android:title="Settings Display Preference ">
 	
 	
 	<com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/touch_key_light_entries" android:title="Touch Key Light Duration" android:key="button_key_light" android:summary="Set the Hardware Key Backlight display" android:defaultValue="0" android:entryValues="@array/touch_key_light_values" />
     
 	
-	<com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/screen_timeout_entries" android:summary="@string/screen_timeout_summary" android:title="Screen TimeOut" android:key="screen_timeout" android:defaultValue="0" android:entryValues="@array/screen_timeout_entries" />
-    
-	</PreferenceCategory>
-	
-	<PreferenceCategory  android:title="Settings development Preference ">
-	
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/window_animation_scale_entries" android:title="Window Animation Scale " android:key="window_animation_scale" android:defaultValue="0.25" android:entryValues="@array/window_animation_scale_values" />
-    
+	<com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/screen_timeout_entries" android:summary="@string/screen_timeout_summary" android:title="Screen TimeOut" android:key="screen_timeout" android:defaultValue="60" android:entryValues="@array/screen_timeout_entries" />
 
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/transition_animation_scale_entries" android:title="Transition Animation Scale " android:key="transition_animation_scale" android:defaultValue="0.25" android:entryValues="@array/transition_animation_scale_values" />
-    
-	
-	<com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/animator_duration_scale_entries" android:title="Animator Duration Scale " android:key="animator_duration_scale" android:defaultValue="0.25" android:entryValues="@array/animator_duration_scale_values" />
-    
-	
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Increase touch sensitivity" android:key="auto_adjust_touch" android:summary="Use your device while wearing gloves by increasing the touch sensitivity of the screen." android:defaultValue="false" />
+
+
     </PreferenceCategory>
-    
 
 
-	
 	<PreferenceCategory  android:title="Another Elements ">
 	
 	    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Multiwindow" android:key="multi_window_enabled" android:defaultValue="false" android:summaryOn="Option enabled" android:summaryOff="Option disabled" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Multiwindow Always on After Reboot" android:key="multiwindow_enabled_always" android:defaultValue="false" android:summaryOn="Option enabled" android:summaryOff="Option disabled" />
-       
+
 
 	   <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Outdoor Mode" android:key="display_outdoor_mode" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-        
-	    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Screen Pinning for Recent Apps" android:key="lock_to_app_enabled" android:defaultValue="false" android:summaryOn="Option is currently enabled" android:summaryOff="Option is currently disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Camera/Phone shortcut in Lockscreen" android:key="set_shortcuts_mode" android:defaultValue="1" android:summaryOn="Shown" android:summaryOff="Hidden" />
 
 
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Phone shortcut in Lockscreen" android:key="set_shortcuts_phone" android:defaultValue="1" android:summaryOn="Shown" android:summaryOff="Hidden" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Camera shortcut in Lockscreen" android:key="set_shortcuts_mode" android:defaultValue="1" android:summaryOn="Shown" android:summaryOff="Hidden" />
-
-	
+        <PreferenceScreen android:persistent="false" android:title="Private mode" android:key="key_private_mode" android:summary="PrivateMod Settings Shortcut">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.personalpage.PersonalPageSettings" />
+        </PreferenceScreen>
 	</PreferenceCategory>
-	
 
-	
-	
+    <PreferenceScreen android:title="Power Menu">
+
+        <PreferenceCategory android:title="Extended Power Menu" android:summary="Configure Advanced RebootMenu" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Power Off" android:key="power_poweroff" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Data Mode" android:key="power_data" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Airplane Mode" android:key="power_airplane" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Restart Menu" android:key="power_restart" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Recovery" android:key="power_recovery" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Download mode" android:key="power_download" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Flashlight" android:key="power_torch" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Screen Recorder" android:key="power_record" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Screenshot" android:key="power_screenshot" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Emergency Mode" android:key="power_emergency" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+
+    </PreferenceScreen>
+
 	<PreferenceCategory   android:title="Another Shortcut  ">
 	
 	
@@ -122,11 +76,11 @@
 	<com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="AdAway" android:summary="Block Advertising in a lot of apps" app:componentName="org.adaway/org.adaway.ui.BaseActivity" />
     <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Greenify" android:summary="Hibernate Apps with Greenify to help further with battery conservation" app:componentName="com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity" />
     <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="WizIconizer" android:summary="TouchWiz Icon Changer" app:componentName="com.wiziconizer/com.wiziconizer.HomeActivity" />
-    <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="UPSM Manager" android:summary="Enable extra apps for Ultra Power Save Mode" app:componentName="mobi.xperiacle.upsm.manager/mobi.xperiacle.upsm.manager.MainActivity" />
-    
-	
-	
-	</PreferenceCategory>
+
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="UPSM Manager" android:summary="Enable extra apps for Ultra Power Save Mode" app:componentName="mobi.xperiacle.upsm.manager/mobi.xperiacle.upsm.manager.MainActivity" />
+
+
+    </PreferenceCategory>
 				  
 		<PreferenceCategory android:title="Advanced Menu " />
     <PreferenceScreen android:title=" Some Hidden Setting Setup ">			  
@@ -144,7 +98,6 @@
     <PreferenceScreen android:title="Battery Status" android:summary="All the battery information is here">
         <intent android:targetPackage="com.sec.android.app.factorykeystring" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.status.BatteryStatus" />
     </PreferenceScreen>
-    
 	
 	<PreferenceScreen android:title="Hardware test" android:summary="Here you can test all detected hardware">
         <intent android:targetPackage="com.sec.android.app.hwmoduletest" android:action="android.provider.Telephony.SECRET_CODE" android:targetClass="com.sec.android.app.hwmoduletest.HwModuleTest" />
@@ -152,7 +105,6 @@
     <PreferenceScreen android:title="IMEI/MEID" android:summary="ViewIMEI/MEID">
         <intent android:targetPackage="com.sec.android.app.servicemodeapp" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.modemui.activities.ShowIMEI" />
     </PreferenceScreen>
-    
 	
 	<PreferenceScreen android:title="GPS_Satellite_Viewer" android:summary="Shows the satellites near your position, saved from agps data">
         <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.location.SatelliteView" />

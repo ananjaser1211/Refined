@@ -26,14 +26,7 @@
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_eragon_ui</item>
         <item>@drawable/ic_noti_panel</item>
-        <item>@drawable/ic_utils_launch</item>
-        <item>@drawable/ic_phone</item>
-        <item>@drawable/ic_lockscreen</item>
-        <item>@drawable/ic_carrier_utils</item>
-        <item>@drawable/ic_sound</item>
         <item>@drawable/ic_other</item>
-        <item>@drawable/ic_remap_key</item>
-        <item>@drawable/ic_addons</item>
         <item>@drawable/ic_script</item>
     </array>
 
@@ -44,14 +37,7 @@
     <string-array name="nav_menu_prefs_titles">
         <item>@string/eragon_ui</item>
         <item>@string/noti_panel</item>
-        <item>@string/utils_launch</item>
-        <item>@string/phone_utils</item>
-        <item>@string/lockscreen</item>
-        <item>@string/carrier_utils</item>
-        <item>@string/sound_utils</item>
         <item>@string/other</item>
-        <item>@string/remap_key</item>
-        <item>@string/addons</item>
         <item>@string/script_utils</item>
     </string-array>
 
@@ -63,14 +49,7 @@
     <string-array name="nav_menu_xml_file_names" translatable="false">
         <item>eragon_ui</item>
         <item>noti_panel</item>
-        <item>utils_launch</item>
-        <item>phone_utils</item>
-        <item>lockscreen</item>
-        <item>carrier_utils</item>
-        <item>sound_utils</item>
         <item>other</item>
-        <item>remap_key</item>
-        <item>addons_utils</item>
         <item>script_utils</item>
     </string-array>
 </resources>

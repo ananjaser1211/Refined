@@ -26,54 +26,45 @@
     </string-array>
     <array name="about_contact_us_drawables">
         <item>@drawable/icon_2</item>
-		<item>@drawable/icon_2</item>
+		<item>@drawable/icon_anan</item>
     </array>
     <string-array name="about_contact_us_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=5405448</item>
-		<item>https://github.com/thereassaad/RomControl-v2-</item>
+		<item>https://forum.xda-developers.com/member.php?u=4637718</item>
     </string-array>
     <string-array name="about_contact_us_text">
-        <item>XDA</item>
-		<item>ther Git</item>
+        <item>Thereassaad</item>
+		<item>Anan1211</item>
     </string-array>
     <array name="about_credits_drawables">
         <item>@drawable/icon_1</item>
         <item>@drawable/icon_3</item>
-		<item>@drawable/icon_7</item>
-		<item>@drawable/icon_8</item>
-		<item>@drawable/xda</item>
-		<item>@drawable/kooze</item>
+        <item>@drawable/icon_2</item>
 		<item>@drawable/td</item>
     </array>
     <string-array name="about_credits_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=4714483</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353</item>
-		<item>https://www.google.com/</item>
-		<item>http://ndroid.io/</item>
-		<item>https://www.google.com/</item>
-		<item>http://pan.baidu.com/share/home?uk=470461092#category/type=0</item>
+        <item>http://forum.xda-developers.com/member.php?u=5405448</item>
 		<item>http://forum.xda-developers.com/showthread.php?t=2799050</item>
     </string-array>
     <string-array name="about_credits_names">
         <item>daxgirl  ( RomControl Project Owner , Open Source ) </item>
         <item>Wuby986  ( RomControl Project Owner , Open Source ) </item>
-		<item>Hangout Group  ( sac23 , geiti94 , darkera13 , slink_59 , Albe95 , Ale95 , tamirda , Androidwizzard , _Alex74_ ) </item>
-		<item>Ravian29  ( A tons of thanks bro ,  ) </item>
-		<item>DaOldMan  ( A tons of thanks bro ,  ) </item>
-		<item>kooze  ( Alot of thanks ) </item>
-		<item>tdunham ( A tons of thanks mate , for All devs around ur thread , hatts off to All of u Guys ) </item>
+        <item>Thereassaad  ( EragonRC + Helped countless times ) </item>
+		<item>tdunham ( TouchWiz UnifedMods Thread ) </item>
     </string-array>
     <array name="about_team_drawables">
-        <item>@drawable/icon_2</item>
-		<item>@drawable/icon_2</item>
+        <item>@drawable/icon_anan</item>
+		<item>@drawable/ic_hashtag</item>
     </array>
     <string-array name="about_team_links" translatable="false">
-        <item>http://forum.xda-developers.com/member.php?u=5405448</item>
-		<item>https://github.com/thereassaad/RomControl-v2-</item>
+        <item>https://forum.xda-developers.com/member.php?u=4637718</item>
+		<item>https://github.com/ananjaser1211/Refined</item>
     </string-array>
     <string-array name="about_team_names">
-        <item>Developed by thereassaad</item>
-		<item>ther RomControl Source</item>
+        <item>Edited By Anan1211</item>
+		<item>SourceCode</item>
     </string-array>
     <string-array name="ambient_pulse_delay">
         <item>0.1s</item>
@@ -1255,40 +1246,19 @@ Oct/16/2014"</item>
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_eragon_ui</item>
         <item>@drawable/ic_noti_panel</item>
-        <item>@drawable/ic_utils_launch</item>
-        <item>@drawable/ic_phone</item>
-        <item>@drawable/ic_lockscreen</item>
-        <item>@drawable/ic_carrier_utils</item>
-        <item>@drawable/ic_sound</item>
         <item>@drawable/ic_other</item>
-        <item>@drawable/ic_remap_key</item>
-        <item>@drawable/ic_addons</item>
         <item>@drawable/ic_script</item>
     </array>
     <string-array name="nav_menu_prefs_titles">
         <item>@string/eragon_ui</item>
         <item>@string/noti_panel</item>
-        <item>@string/utils_launch</item>
-        <item>@string/phone_utils</item>
-        <item>@string/lockscreen</item>
-        <item>@string/carrier_utils</item>
-        <item>@string/sound_utils</item>
         <item>@string/other</item>
-        <item>@string/remap_key</item>
-        <item>@string/addons</item>
         <item>@string/script_utils</item>
     </string-array>
     <string-array name="nav_menu_xml_file_names" translatable="false">
         <item>eragon_ui</item>
         <item>noti_panel</item>
-        <item>utils_launch</item>
-        <item>phone_utils</item>
-        <item>lockscreen</item>
-        <item>carrier_utils</item>
-        <item>sound_utils</item>
         <item>other</item>
-        <item>remap_key</item>
-        <item>addons_utils</item>
         <item>script_utils</item>
     </string-array>
     <string-array name="power_doubletap">
@@ -2731,7 +2701,7 @@ Oct/16/2014"</item>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_us">About us</string>
     <string name="addons">AddOns</string>
-    <string name="app_name">  Eragon  </string>
+    <string name="app_name">  Refined  </string>
     <string name="app_reboot_required_dialog_message">For this action to take effect it is required to restart %1$s.\n\nPress OK to restart now</string>
     <string name="app_reboot_required_dialog_title">App reboot required</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -2742,7 +2712,6 @@ Oct/16/2014"</item>
     <string name="backup_restore_dialog_title">Backup/Restore Rom Control system data</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="carrier_utils">Carrier</string>
-    <string name="changelog">Changelog</string>
     <string name="changelog_version_title">ROM version: %1$s</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="choose_backup_dialog_title">Please choose backup to restore</string>
@@ -2750,7 +2719,7 @@ Oct/16/2014"</item>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="deselect_all">Deselect all</string>
     <string name="dialog_color_picker">Pick Color</string>
-    <string name="eragon_ui">eragon</string>
+    <string name="eragon_ui">SystemUI</string>
     <string name="find_app">Find App</string>
     <string name="ime_animation_test_title">Test IME Animation Here</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
