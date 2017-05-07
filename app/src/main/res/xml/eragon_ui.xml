@@ -3,6 +3,10 @@
   xmlns:android="http://schemas.android.com/apk/res/android" 
   xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+    <PreferenceCategory android:title="AlwaysOn/Ambient Display Brightness"/>
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="AOD brightness" android:key="eragon_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
+
     <PreferenceCategory android:title="6thGear Network meter" />
     <PreferenceScreen
         android:title="Configure Network Meter">
@@ -92,9 +96,20 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
-    <PreferenceCategory android:title="AlwaysOn Brightness"/>
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="AOD brightness" android:key="eragon_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
+    <PreferenceCategory android:title="Recents RamBar">
+        <PreferenceScreen android:title="RamBar" android:summary="Configure Recents Panel RAMBAR">
 
+            <PreferenceCategory android:title="Enabling Requires UI Reboot">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="AOKP Ram Bar" android:key="aokpram" android:defaultValue="1" android:summaryOn="Ram Bar is shown" android:summaryOff="Ram Bar is hidden" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Free Ram Text Color" android:key="free_ram_text" android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Used Ram Text Color" android:key="used_ram_text" android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" app:packageNameToKill="com.android.systemui"/>
+            </PreferenceCategory>
+
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="BattreyBar Settings">
     <PreferenceScreen android:title="Battery Bar" android:summary="Display Line on top for battery">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:defaultValue="true" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
@@ -102,7 +117,21 @@
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:summary="%s" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Bar Color" android:key="battery_bar_color" android:summary="Choose color of battery bar" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
     </PreferenceScreen>
+    </PreferenceCategory>
 
+    <PreferenceCategory android:title="Battery Style">
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Stock Battery" android:key="hide_battery_stock" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery Percentage" android:key="display_battery_percentage" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="VirtualLock">
+
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="VirtualLock" android:key="VirtualLock" android:summaryOn="VirtualLock ON" android:summaryOff="VirtualLock off" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
 
 

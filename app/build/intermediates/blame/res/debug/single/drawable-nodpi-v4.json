@@ -44,12 +44,12 @@
         "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\drawable-nodpi\\ic_carrier_utils.png"
     },
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\viper.png",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\drawable-nodpi\\viper.png"
-    },
-    {
         "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\potatoclock.png",
         "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\drawable-nodpi\\potatoclock.png"
+    },
+    {
+        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\viper.png",
+        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\drawable-nodpi\\viper.png"
     },
     {
         "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\google_ic.png",

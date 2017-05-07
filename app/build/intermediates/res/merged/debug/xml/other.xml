@@ -18,12 +18,21 @@
 
 
 	<PreferenceCategory  android:title="Another Elements ">
-	
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Heads Up Notifications"
+            android:key="heads_up_notifications_enabled"
+            android:defaultValue="true"
+            android:summaryOn="Heads up enabled"
+            android:summaryOff="Heads up disabled"
+            app:rebootDevice="true" />
+
 	    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Multiwindow" android:key="multi_window_enabled" android:defaultValue="false" android:summaryOn="Option enabled" android:summaryOff="Option disabled" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Multiwindow Always on After Reboot" android:key="multiwindow_enabled_always" android:defaultValue="false" android:summaryOn="Option enabled" android:summaryOff="Option disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Adaptive FastCharging" android:key="adaptive_fast_charging" android:defaultValue="true" android:summaryOff="Disabled" android:summaryOn="Enabled" android:summary="Enable/Disable FastCharging" />
 
 
-	   <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Outdoor Mode" android:key="display_outdoor_mode" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Outdoor Mode" android:key="display_outdoor_mode" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Camera/Phone shortcut in Lockscreen" android:key="set_shortcuts_mode" android:defaultValue="1" android:summaryOn="Shown" android:summaryOff="Hidden" />
 
 
@@ -32,7 +41,7 @@
         </PreferenceScreen>
 	</PreferenceCategory>
 
-    <PreferenceScreen android:title="Power Menu">
+    <PreferenceScreen android:title="Power Menu" android:summary="Show/Hide PowerMenu Items">
 
         <PreferenceCategory android:title="Extended Power Menu" android:summary="Configure Advanced RebootMenu" />
         <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Power Off" android:key="power_poweroff" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
@@ -47,6 +56,7 @@
         <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Emergency Mode" android:key="power_emergency" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
 
     </PreferenceScreen>
+
 
 	<PreferenceCategory   android:title="Another Shortcut  ">
 	

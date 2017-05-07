@@ -476,6 +476,16 @@
         <item>12</item>
         <item>13</item>
     </string-array>
+    <string-array name="clock_format_entries">
+        <item>Normal clock</item>
+        <item>Funky clock</item>
+        <item>Word clock</item>
+    </string-array>
+    <string-array name="clock_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="clock_position_entries">
         <item>Right clock</item>
         <item>Center Clock</item>
@@ -897,6 +907,11 @@ Oct/16/2014"</item>
         <item>Dotted Circle</item>
         <item>Dotted Circle with percentage</item>
         <item>No battery</item>
+    </string-array>
+    <string-array name="entries_status_bar_am_pm">
+        <item>"Don't show"</item>
+        <item>Small AM/PM</item>
+        <item>Regular AM/PM</item>
     </string-array>
     <string-array name="gradient_entries">
         <item>Top to bottom</item>
@@ -2218,6 +2233,11 @@ Oct/16/2014"</item>
         <item>5</item>
         <item>6</item>
         <item>8</item>
+    </string-array>
+    <string-array name="values_status_bar_am_pm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="virtual_key_longpress_action_values">
         <item>0</item>
