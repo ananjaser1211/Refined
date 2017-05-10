@@ -8,17 +8,11 @@
     Add as many items as you want or delete some if those are too many
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
-    <string-array name="changelog_items">
-        <item> No Changelog due to MY Rom NOT Public Yet</item>
-        <item>Pssssssssssssssssssssssttt ther </item>
-        <item> Cool </item>
-        <item>  huh   </item>
-    </string-array>
+
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">Eragon Rom v 0.1 </string>
 
 
 </resources>

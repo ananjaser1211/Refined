@@ -284,8 +284,7 @@
     </string-array>
     <string-array name="battery_bar_entries">
         <item>Hide</item>
-        <item>Show up top</item>
-        <item>Show down below</item>
+        <item>Show</item>
     </string-array>
     <string-array name="battery_bar_height_enties">
         <item>1.0 Dip</item>
@@ -332,7 +331,6 @@
         <item>4</item>
     </string-array>
     <string-array name="battery_bar_values">
-        <item>2</item>
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -349,7 +347,7 @@
         <item>5000</item>
     </string-array>
     <string-array name="carrier_entries">
-        <item>Default Carrier Text</item>
+        <item>Actual carrier text</item>
         <item>Custom text</item>
     </string-array>
     <string-array name="carrier_entry_values">
@@ -363,12 +361,6 @@
     <string-array name="carrier_label_values">
         <item>0</item>
         <item>3</item>
-    </string-array>
-    <string-array name="changelog_items">
-        <item> No Changelog due to MY Rom NOT Public Yet</item>
-        <item>Pssssssssssssssssssssssttt ther </item>
-        <item> Cool </item>
-        <item>  huh   </item>
     </string-array>
     <string-array name="circle_battery_animation_speed_entries">
         <item>None</item>
@@ -886,10 +878,10 @@ Oct/16/2014"</item>
         <item>999</item>
     </string-array>
     <string-array name="dsb_gradient_filter_entries">
-        <item>Off</item>
-        <item>Only Desktop</item>
-        <item>Everywhere Except Desktop</item>
-        <item>On</item>
+        <item>@string/dsb_gradient_filter_value_0</item>
+        <item>@string/dsb_gradient_filter_value_1</item>
+        <item>@string/dsb_gradient_filter_value_2</item>
+        <item>@string/dsb_gradient_filter_value_3</item>
     </string-array>
     <string-array name="dsb_gradient_filter_values">
         <item>0</item>
@@ -912,6 +904,34 @@ Oct/16/2014"</item>
         <item>"Don't show"</item>
         <item>Small AM/PM</item>
         <item>Regular AM/PM</item>
+    </string-array>
+    <string-array name="expansion_view_animation_entries">
+        <item>@string/expansion_view_animation_down</item>
+        <item>@string/expansion_view_animation_enter</item>
+        <item>@string/expansion_view_animation_left</item>
+        <item>@string/expansion_view_animation_right</item>
+        <item>@string/expansion_view_animation_rotate</item>
+        <item>@string/expansion_view_animation_turn</item>
+        <item>@string/expansion_view_animation_up</item>
+        <item>@string/expansion_view_recents_enter</item>
+        <item>@string/expansion_view_fade</item>
+        <item>@string/expansion_view_last_app</item>
+        <item>@string/expansion_view_search_bar</item>
+        <item>@string/expansion_view_toko_toast</item>
+    </string-array>
+    <string-array name="expansion_view_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array>
     <string-array name="gradient_entries">
         <item>Top to bottom</item>
@@ -1306,6 +1326,48 @@ Oct/16/2014"</item>
         <item>UP: right | DOWN: left</item>
     </string-array>
     <string-array name="pref_volume_cursor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="qs_tile_animation_duration_entries">
+        <item>@string/qs_tile_animation_duration_low</item>
+        <item>@string/qs_tile_animation_duration_default</item>
+        <item>@string/qs_tile_animation_duration_fast</item>
+        <item>@string/qs_tile_animation_duration_superfast</item>
+    </string-array>
+    <string-array name="qs_tile_animation_duration_values">
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="qs_tile_animation_interpolator_entries">
+        <item>@string/qs_tile_animation_interpolator_linearInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_accelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_decelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_accelerateDecelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_bounceInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_overshootInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_anticipateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_anticipateOvershootInterpolator</item>
+    </string-array>
+    <string-array name="qs_tile_animation_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="qs_tile_animation_style_entries">
+        <item>@string/qs_tile_animation_style_off</item>
+        <item>@string/qs_tile_animation_style_flip</item>
+        <item>@string/qs_tile_animation_style_rotate</item>
+    </string-array>
+    <string-array name="qs_tile_animation_style_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -1965,22 +2027,22 @@ Oct/16/2014"</item>
         <item>2</item>
     </string-array>
     <string-array name="toast_animation_entries">
-        <item>None</item>
-        <item>Default</item>
-        <item>Fade</item>
-        <item>Slide Left To Right</item>
-        <item>Slide Right To Left</item>
-        <item>Slide Right</item>
-        <item>Slide Left</item>
-        <item>Xylon</item>
-        <item>Toko</item>
-        <item>TN NicelyAnim</item>
-        <item>Honami</item>
-        <item>Fast Fade</item>
-        <item>Grow Fade</item>
-        <item>Grow Fade Center</item>
-        <item>Grow Fade Bottom</item>
-        <item>Translucent</item>
+        <item>@string/toast_none_animation</item>
+        <item>@string/toast_default_animation</item>
+        <item>@string/toast_fade_animation</item>
+        <item>@string/toast_SlideLeftRight_animation</item>
+        <item>@string/toast_SlideRightLeft_animation</item>
+        <item>@string/toast_SlideRight_animation</item>
+        <item>@string/toast_SlideLeft_animation</item>
+        <item>@string/toast_Xylon_animation</item>
+        <item>@string/toast_Toko_animation</item>
+        <item>@string/toast_Tn_animation</item>
+        <item>@string/toast_Honami_animation</item>
+        <item>@string/toast_FastFade_animation</item>
+        <item>@string/toast_GrowFade_animation</item>
+        <item>@string/toast_GrowFadeCenter_animation</item>
+        <item>@string/toast_GrowFadeBottom_animation</item>
+        <item>@string/toast_Translucent_animation</item>
     </string-array>
     <string-array name="toast_animation_values">
         <item>0</item>
@@ -2202,26 +2264,6 @@ Oct/16/2014"</item>
         <item>2</item>
         <item>5</item>
         <item>10</item>
-    </string-array>
-    <string-array name="tw_effect_entries">
-        <item>None</item>
-        <item>Cascade</item>
-        <item>Outer cube</item>
-        <item>Inner Cube</item>
-        <item>Carousal</item>
-        <item>Plain</item>
-        <item>Conveyor</item>
-        <item>Card</item>
-    </string-array>
-    <string-array name="tw_effect_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
     </string-array>
     <string-array name="values_battery_icon">
         <item>0</item>
@@ -2731,6 +2773,7 @@ Oct/16/2014"</item>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="backup_restore_dialog_title">Backup/Restore Rom Control system data</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cancel_2">Cancel</string>
     <string name="carrier_utils">Carrier</string>
     <string name="changelog_version_title">ROM version: %1$s</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -2739,7 +2782,39 @@ Oct/16/2014"</item>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="deselect_all">Deselect all</string>
     <string name="dialog_color_picker">Pick Color</string>
+    <string name="dlg_reset_android">Ok</string>
+    <string name="dsb_gradient_filter_value_0">Off</string>
+    <string name="dsb_gradient_filter_value_1">Only on the desktop</string>
+    <string name="dsb_gradient_filter_value_2">Everywhere except the desktop</string>
+    <string name="dsb_gradient_filter_value_3">On</string>
+    <string name="dynamic_status_bar_color_summary">Automatically update background color of the status bar</string>
+    <string name="dynamic_status_bar_color_title">Dynamic status bar color</string>
+    <string name="dynamic_status_bar_filter_summary">Overlay a darkening filter on the status bar</string>
+    <string name="dynamic_status_bar_filter_title">Darkening</string>
+    <string name="dynamic_status_bar_filter_value">The intensity of the darkening filter</string>
+    <string name="dynamic_status_bar_gradient_summary">Overlay a gradient on the status bar</string>
+    <string name="dynamic_status_bar_gradient_title">Gradient</string>
+    <string name="dynamic_status_bar_title">Dynamic status bar</string>
     <string name="eragon_ui">SystemUI</string>
+    <string name="expansion_view_animation_dialog_title">Select your animation</string>
+    <string name="expansion_view_animation_down">Down (Default)</string>
+    <string name="expansion_view_animation_enter">Enter</string>
+    <string name="expansion_view_animation_left">Left</string>
+    <string name="expansion_view_animation_right">Right</string>
+    <string name="expansion_view_animation_rotate">Rotate</string>
+    <string name="expansion_view_animation_summary">Change the enter/exit animation of the panel change</string>
+    <string name="expansion_view_animation_title">Task Manager Animation</string>
+    <string name="expansion_view_animation_turn">Turn</string>
+    <string name="expansion_view_animation_up">Up</string>
+    <string name="expansion_view_fade">Fade</string>
+    <string name="expansion_view_last_app">Last App</string>
+    <string name="expansion_view_recents_enter">Recents Enter</string>
+    <string name="expansion_view_rotate">Reverse Rotate</string>
+    <string name="expansion_view_search_bar">SearchBar Animation</string>
+    <string name="expansion_view_slide_out">Slide</string>
+    <string name="expansion_view_task_open">Task Open</string>
+    <string name="expansion_view_toko_toast">Toko Toast</string>
+    <string name="expansion_view_xylon_toast">Toast</string>
     <string name="find_app">Find App</string>
     <string name="ime_animation_test_title">Test IME Animation Here</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
@@ -2757,6 +2832,30 @@ Oct/16/2014"</item>
     <string name="other">Others</string>
     <string name="phone_utils">PhoneMods</string>
     <string name="press_color_to_apply">Press to apply</string>
+    <string name="qs_anim_summary">customize quick settings animation</string>
+    <string name="qs_anim_title">QS animations</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_tile_animation_duration_default">Default</string>
+    <string name="qs_tile_animation_duration_fast">Fast</string>
+    <string name="qs_tile_animation_duration_low">Low</string>
+    <string name="qs_tile_animation_duration_superfast">Superfast</string>
+    <string name="qs_tile_animation_duration_title">Tiles animation duration</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_style_title">Tiles animation style</string>
+    <string name="quicksettings_tiles_category">Tile animation options</string>
     <string name="reboot_device_text">Reboot Device</string>
     <string name="reboot_later_negative_button">later</string>
     <string name="reboot_menu">Reboot menu</string>
@@ -2766,18 +2865,19 @@ Oct/16/2014"</item>
     <string name="reboot_required_dialog_title">Device reboot required</string>
     <string name="reboot_ui_text">Reboot SystemUI</string>
     <string name="remap_key">Remaping</string>
+    <string name="reset_2">Reset</string>
+    <string name="reset_message">Reset all entries to default?</string>
     <string name="restore_complete_toast">Restore complete</string>
     <string name="restore_confirm_dialog_title">Please confirm restore</string>
     <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
-    <string name="rom_version_for_changelog">Eragon Rom v 0.1 </string>
     <string name="root_progress_dialog_message">Please wait…</string>
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
     <string name="root_tools_exception_toast">File not found or root denied</string>
     <string name="run_script_confirm_dialog_positive_button">Yes, run</string>
     <string name="run_script_confirm_dialog_title">Confirmation required</string>
     <string name="screen_timeout_summary">After %1$s of inactivity</string>
-    <string name="script_utils">Scripts</string>
+    <string name="script_utils">Extra</string>
     <string name="search_menu_title">Search</string>
     <string name="select_all">Select all</string>
     <string name="set_theme">Set theme</string>
@@ -2787,6 +2887,23 @@ Oct/16/2014"</item>
     <string name="summaryOn">Enabled</string>
     <string name="theme_dialog_title">Choose theme</string>
     <string name="time_out">Time out</string>
+    <string name="toast_FastFade_animation">FastFade Animation</string>
+    <string name="toast_GrowFadeBottom_animation">GrowFadeBottom Animation</string>
+    <string name="toast_GrowFadeCenter_animation">GrowFadeCenter Animation</string>
+    <string name="toast_GrowFade_animation">GrowFade Animation</string>
+    <string name="toast_Honami_animation">Honami Animation</string>
+    <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
+    <string name="toast_SlideLeft_animation">SlideLeft Animation</string>
+    <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
+    <string name="toast_SlideRight_animation">SlideRight Animation</string>
+    <string name="toast_Tn_animation">Tn Animation</string>
+    <string name="toast_Toko_animation">Toko Animation</string>
+    <string name="toast_Translucent_animation">Translucent Animation</string>
+    <string name="toast_Xylon_animation">Xylon Animation</string>
+    <string name="toast_animation_title">Toast animations</string>
+    <string name="toast_default_animation">Default</string>
+    <string name="toast_fade_animation">Fade Animation</string>
+    <string name="toast_none_animation">None</string>
     <string name="utils_launch">UtilsLaunch</string>
     <string name="wallpaper_scroll">Wallpaper scroll</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

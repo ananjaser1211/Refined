@@ -83,19 +83,9 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-	
-	<string-array name="SignalPositionName">
-        <item>Shown on the Right</item>
-        <item>Shown on the Left</item>
-    </string-array>
-    <string-array name="SignalPositionValue">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="battery_bar_entries">
         <item>Hide</item>
-        <item>Show up top</item>
-        <item>Show down below</item>
+        <item>Show</item>
     </string-array>
     <string-array name="battery_bar_style_entries">
         <item>Regular</item>
@@ -118,7 +108,6 @@
         <item>4</item>
     </string-array>
     <string-array name="battery_bar_values">
-        <item>2</item>
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -325,18 +314,6 @@ Oct/16/2014"</item>
         <item>15</item>
         <item>16</item>
         <item>17</item>
-    </string-array>
-    <string-array name="dsb_gradient_filter_entries">
-        <item>Off</item>
-        <item>Only Desktop</item>
-        <item>Everywhere Except Desktop</item>
-        <item>On</item>
-    </string-array>
-    <string-array name="dsb_gradient_filter_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="immersive_entries">
         <item>Immersive Off (Default)</item>
@@ -648,26 +625,7 @@ Oct/16/2014"</item>
         <item>19</item>
         <item>20</item>
     </string-array>
-    <string-array name="tw_effect_entries">
-        <item>None</item>
-        <item>Cascade</item>
-        <item>Outer cube</item>
-        <item>Inner Cube</item>
-        <item>Carousal</item>
-        <item>Plain</item>
-        <item>Conveyor</item>
-        <item>Card</item>
-    </string-array>
-    <string-array name="tw_effect_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-    </string-array>
+
     
 	
 	<string-array name="launcher_gesture_entries">
@@ -967,14 +925,6 @@ Oct/16/2014"</item>
         <item>85</item>
         <item>88</item>
         <item>86</item>
-    </string-array>
-	<string-array name="carrier_entries">
-        <item>Default Carrier Text</item>
-        <item>Custom text</item>
-    </string-array>
-    <string-array name="carrier_entry_values">
-        <item>0</item>
-        <item>1</item>
     </string-array>
 	<string-array name="data_usage_gravity_entries">
         <item>To end</item>
@@ -1340,49 +1290,7 @@ Oct/16/2014"</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-	
-	
-	
-	
-	
-	
-	<string-array name="toast_animation_entries">
-        <item>None</item>
-        <item>Default</item>
-        <item>Fade</item>
-        <item>Slide Left To Right</item>
-        <item>Slide Right To Left</item>
-        <item>Slide Right</item>
-        <item>Slide Left</item>
-        <item>Xylon</item>
-        <item>Toko</item>
-        <item>TN NicelyAnim</item>
-        <item>Honami</item>
-        <item>Fast Fade</item>
-        <item>Grow Fade</item>
-        <item>Grow Fade Center</item>
-        <item>Grow Fade Bottom</item>
-        <item>Translucent</item>
-    </string-array>
-    <string-array name="toast_animation_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-    </string-array>
-	
+
 	<string-array name="sysbar_lock">
         <item>Disabled</item>
         <item>Left Side</item>
@@ -2405,8 +2313,143 @@ Oct/16/2014"</item>
         <item>-14791048</item>
         <item>-14791048</item>
     </integer-array>
-	
-	
-	
-	
+
+
+    <string-array name="SignalPositionName">
+        <item>Shown on the Right</item>
+        <item>Shown on the Left</item>
+    </string-array>
+    <string-array name="SignalPositionValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="qs_tile_animation_style_entries">
+        <item>@string/qs_tile_animation_style_off</item>
+        <item>@string/qs_tile_animation_style_flip</item>
+        <item>@string/qs_tile_animation_style_rotate</item>
+    </string-array>
+    <string-array name="qs_tile_animation_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="qs_tile_animation_duration_entries">
+        <item>@string/qs_tile_animation_duration_low</item>
+        <item>@string/qs_tile_animation_duration_default</item>
+        <item>@string/qs_tile_animation_duration_fast</item>
+        <item>@string/qs_tile_animation_duration_superfast</item>
+    </string-array>
+    <string-array name="qs_tile_animation_duration_values">
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="qs_tile_animation_interpolator_entries">
+        <item>@string/qs_tile_animation_interpolator_linearInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_accelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_decelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_accelerateDecelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_bounceInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_overshootInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_anticipateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_anticipateOvershootInterpolator</item>
+    </string-array>
+    <string-array name="qs_tile_animation_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="expansion_view_animation_entries">
+        <item>@string/expansion_view_animation_down</item>
+        <item>@string/expansion_view_animation_enter</item>
+        <item>@string/expansion_view_animation_left</item>
+        <item>@string/expansion_view_animation_right</item>
+        <item>@string/expansion_view_animation_rotate</item>
+        <item>@string/expansion_view_animation_turn</item>
+        <item>@string/expansion_view_animation_up</item>
+        <item>@string/expansion_view_recents_enter</item>
+        <item>@string/expansion_view_fade</item>
+        <item>@string/expansion_view_last_app</item>
+        <item>@string/expansion_view_search_bar</item>
+        <item>@string/expansion_view_toko_toast</item>
+    </string-array>
+    <string-array name="expansion_view_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="dsb_gradient_filter_entries">
+        <item>@string/dsb_gradient_filter_value_0</item>
+        <item>@string/dsb_gradient_filter_value_1</item>
+        <item>@string/dsb_gradient_filter_value_2</item>
+        <item>@string/dsb_gradient_filter_value_3</item>
+    </string-array>
+    <string-array name="dsb_gradient_filter_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="toast_animation_entries">
+        <item>@string/toast_none_animation</item>
+        <item>@string/toast_default_animation</item>
+        <item>@string/toast_fade_animation</item>
+        <item>@string/toast_SlideLeftRight_animation</item>
+        <item>@string/toast_SlideRightLeft_animation</item>
+        <item>@string/toast_SlideRight_animation</item>
+        <item>@string/toast_SlideLeft_animation</item>
+        <item>@string/toast_Xylon_animation</item>
+        <item>@string/toast_Toko_animation</item>
+        <item>@string/toast_Tn_animation</item>
+        <item>@string/toast_Honami_animation</item>
+        <item>@string/toast_FastFade_animation</item>
+        <item>@string/toast_GrowFade_animation</item>
+        <item>@string/toast_GrowFadeCenter_animation</item>
+        <item>@string/toast_GrowFadeBottom_animation</item>
+        <item>@string/toast_Translucent_animation</item>
+    </string-array>
+    <string-array name="toast_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="carrier_entries">
+        <item>Actual carrier text</item>
+        <item>Custom text</item>
+    </string-array>
+    <string-array name="carrier_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>

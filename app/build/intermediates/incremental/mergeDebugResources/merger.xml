@@ -1845,6 +1845,19 @@
         <item>Hide weekday</item>
         <item>Small weekday</item>
         <item>Regular weekday</item>
+    </string-array><string-array name="expansion_view_animation_entries">
+        <item>@string/expansion_view_animation_down</item>
+        <item>@string/expansion_view_animation_enter</item>
+        <item>@string/expansion_view_animation_left</item>
+        <item>@string/expansion_view_animation_right</item>
+        <item>@string/expansion_view_animation_rotate</item>
+        <item>@string/expansion_view_animation_turn</item>
+        <item>@string/expansion_view_animation_up</item>
+        <item>@string/expansion_view_recents_enter</item>
+        <item>@string/expansion_view_fade</item>
+        <item>@string/expansion_view_last_app</item>
+        <item>@string/expansion_view_search_bar</item>
+        <item>@string/expansion_view_toko_toast</item>
     </string-array><string-array name="double_home_values">
         <item>0</item>
 		<item>1</item>
@@ -1959,7 +1972,7 @@
         <item>9</item>
         <item>10</item>
     </string-array><string-array name="carrier_entries">
-        <item>Default Carrier Text</item>
+        <item>Actual carrier text</item>
         <item>Custom text</item>
     </string-array><string-array name="anim_open_controls_entries">
         <item>Default</item>
@@ -2091,10 +2104,10 @@
         <item>9000</item>
         <item>10000</item>
     </string-array><string-array name="dsb_gradient_filter_entries">
-        <item>Off</item>
-        <item>Only Desktop</item>
-        <item>Everywhere Except Desktop</item>
-        <item>On</item>
+        <item>@string/dsb_gradient_filter_value_0</item>
+        <item>@string/dsb_gradient_filter_value_1</item>
+        <item>@string/dsb_gradient_filter_value_2</item>
+        <item>@string/dsb_gradient_filter_value_3</item>
     </string-array><string-array name="traffic_state_values">
         <item>0</item>
         <item>1</item>
@@ -2123,6 +2136,11 @@
         <item>EEEE MMMM dd</item>
         <item>EEEE dd/MM</item>
         <item>EEEE MM/dd</item>
+    </string-array><string-array name="qs_tile_animation_duration_entries">
+        <item>@string/qs_tile_animation_duration_low</item>
+        <item>@string/qs_tile_animation_duration_default</item>
+        <item>@string/qs_tile_animation_duration_fast</item>
+        <item>@string/qs_tile_animation_duration_superfast</item>
     </string-array><string-array name="sweep_4direct_values">
         <item>0</item>
         <item>1</item>
@@ -2665,6 +2683,10 @@ Oct/16/2014"</item>
         <item>6 seconds</item>
         <item>Always off</item>
         <item>Always on</item>
+    </string-array><string-array name="qs_tile_animation_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array><string-array name="clock_format_values">
         <item>1</item>
         <item>2</item>
@@ -2692,7 +2714,6 @@ Oct/16/2014"</item>
         <item>Clean Memory</item>
         <item>Disable</item>
     </string-array><string-array name="battery_bar_values">
-        <item>2</item>
         <item>0</item>
         <item>1</item>
     </string-array><string-array name="power_doubletap">
@@ -2706,9 +2727,6 @@ Oct/16/2014"</item>
         <item>Google Now</item>
         <item>Voice Command (S-voice required)</item>
         <item>Lock Phone</item>
-    </string-array><string-array name="SignalPositionName">
-        <item>Shown on the Right</item>
-        <item>Shown on the Left</item>
     </string-array><string-array name="launcher_gesture_values">
         <item>0</item>
         <item>1</item>
@@ -2727,6 +2745,9 @@ Oct/16/2014"</item>
         <item>27</item>
         <item>25</item>
         <item>999</item>
+    </string-array><string-array name="SignalPositionName">
+        <item>Shown on the Right</item>
+        <item>Shown on the Left</item>
     </string-array><string-array name="lockscreen_font_style_entries">
         <item>Android Clock</item>
         <item>Android Clock Highlight</item>
@@ -2837,6 +2858,11 @@ Oct/16/2014"</item>
         <item>Google Now</item>
         <item>Voice Command (S-voice required)</item>
         <item>Lock Phone</item>
+    </string-array><string-array name="qs_tile_animation_duration_values">
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>500</item>
     </string-array><string-array name="toggle_buttons_background_values">
         <item>0</item>
         <item>2</item>
@@ -2891,15 +2917,6 @@ Oct/16/2014"</item>
     </string-array><string-array name="theme_items">
         <item>Light theme</item>
         <item>Dark theme</item>
-    </string-array><string-array name="tw_effect_entries">
-        <item>None</item>
-        <item>Cascade</item>
-        <item>Outer cube</item>
-        <item>Inner Cube</item>
-        <item>Carousal</item>
-        <item>Plain</item>
-        <item>Conveyor</item>
-        <item>Card</item>
     </string-array><string-array name="battery_bar_style_values">
         <item>0</item>
         <item>1</item>
@@ -2950,6 +2967,15 @@ Oct/16/2014"</item>
         <item>2</item>
         <item>3</item>
         <item>5</item>
+    </string-array><string-array name="qs_tile_animation_interpolator_entries">
+        <item>@string/qs_tile_animation_interpolator_linearInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_accelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_decelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_accelerateDecelerateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_bounceInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_overshootInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_anticipateInterpolator</item>
+        <item>@string/qs_tile_animation_interpolator_anticipateOvershootInterpolator</item>
     </string-array><string-array name="pref_volume_cursor_titles">
         <item>Disabled</item>
         <item>UP: left | DOWN: right</item>
@@ -3453,6 +3479,19 @@ Oct/16/2014"</item>
     </string-array><string-array name="carrier_entry_values">
         <item>0</item>
         <item>1</item>
+    </string-array><string-array name="expansion_view_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array><string-array name="ambient_pulse_delay_values">
         <item>100</item>
         <item>200</item>
@@ -3532,8 +3571,7 @@ Oct/16/2014"</item>
         <item>9</item>
     </string-array><string-array name="battery_bar_entries">
         <item>Hide</item>
-        <item>Show up top</item>
-        <item>Show down below</item>
+        <item>Show</item>
     </string-array><string-array name="call_delay_values">
         <item>0</item>
         <item>1000</item>
@@ -3581,7 +3619,8 @@ Oct/16/2014"</item>
         <item>1</item>
         <item>3</item>
         <item>5</item>
-    </string-array><string-array name="tw_effect_values">
+    </string-array><string-array name="qs_tile_animation_interpolator_values">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -3589,7 +3628,6 @@ Oct/16/2014"</item>
         <item>5</item>
         <item>6</item>
         <item>7</item>
-        <item>8</item>
     </string-array><string-array name="restore_statusbar_colors_keys">
         <item>statusbar_wifi_color</item>
         <item>statusbar_signal_color</item>
@@ -3660,6 +3698,10 @@ Oct/16/2014"</item>
         <item>26</item>
         <item>25</item>
         <item>999</item>
+    </string-array><string-array name="qs_tile_animation_style_entries">
+        <item>@string/qs_tile_animation_style_off</item>
+        <item>@string/qs_tile_animation_style_flip</item>
+        <item>@string/qs_tile_animation_style_rotate</item>
     </string-array><string-array name="traffic_style_entry_values">
         <item>0</item>
         <item>1</item>
@@ -3738,22 +3780,22 @@ Oct/16/2014"</item>
         <item>Center clock</item>
         <item>Left clock</item>
     </string-array><string-array name="toast_animation_entries">
-        <item>None</item>
-        <item>Default</item>
-        <item>Fade</item>
-        <item>Slide Left To Right</item>
-        <item>Slide Right To Left</item>
-        <item>Slide Right</item>
-        <item>Slide Left</item>
-        <item>Xylon</item>
-        <item>Toko</item>
-        <item>TN NicelyAnim</item>
-        <item>Honami</item>
-        <item>Fast Fade</item>
-        <item>Grow Fade</item>
-        <item>Grow Fade Center</item>
-        <item>Grow Fade Bottom</item>
-        <item>Translucent</item>
+        <item>@string/toast_none_animation</item>
+        <item>@string/toast_default_animation</item>
+        <item>@string/toast_fade_animation</item>
+        <item>@string/toast_SlideLeftRight_animation</item>
+        <item>@string/toast_SlideRightLeft_animation</item>
+        <item>@string/toast_SlideRight_animation</item>
+        <item>@string/toast_SlideLeft_animation</item>
+        <item>@string/toast_Xylon_animation</item>
+        <item>@string/toast_Toko_animation</item>
+        <item>@string/toast_Tn_animation</item>
+        <item>@string/toast_Honami_animation</item>
+        <item>@string/toast_FastFade_animation</item>
+        <item>@string/toast_GrowFade_animation</item>
+        <item>@string/toast_GrowFadeCenter_animation</item>
+        <item>@string/toast_GrowFadeBottom_animation</item>
+        <item>@string/toast_Translucent_animation</item>
     </string-array><string-array name="restore_lockweather_colors_keys">
         <item>color_temp</item>
         <item>color_high_temp</item>
@@ -3916,12 +3958,7 @@ Oct/16/2014"</item>
         <attr format="reference" name="titlesList"/>
         <attr format="reference" name="keysList"/>
         <attr format="reference" name="valuesList"/>
-    </declare-styleable></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\changelog_resources.xml" qualifiers=""><string name="rom_version_for_changelog">Eragon Rom v 0.1 </string><string-array name="changelog_items">
-        <item> No Changelog due to MY Rom NOT Public Yet</item>
-        <item>Pssssssssssssssssssssssttt ther </item>
-        <item> Cool </item>
-        <item>  huh   </item>
-    </string-array></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\colors.xml" qualifiers=""><color name="nav_drawer_default_color">?android:textColorPrimary</color><color name="darkBgColor">#0c0c0d</color><color name="colorPrimaryDark">#000000</color><color name="colorPrimary">#0c0c0d</color><drawable name="transparentBg">#0000</drawable><color name="colorAccent">#a80028</color></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="nav_header_height">80dp</dimen><dimen name="button_size">30dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="fab_margin">16dp</dimen></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\multple_arrays_prefs.xml" qualifiers=""><string-array name="status_virtual_titles">
+    </declare-styleable></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\colors.xml" qualifiers=""><color name="nav_drawer_default_color">?android:textColorPrimary</color><color name="darkBgColor">#0c0c0d</color><color name="colorPrimaryDark">#000000</color><color name="colorPrimary">#0c0c0d</color><drawable name="transparentBg">#0000</drawable><color name="colorAccent">#a80028</color></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="nav_header_height">80dp</dimen><dimen name="button_size">30dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="fab_margin">16dp</dimen></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\multple_arrays_prefs.xml" qualifiers=""><string-array name="status_virtual_titles">
         <item>left Task</item>
         <item>left Home</item>
         <item>Left Lock</item>
@@ -4012,7 +4049,7 @@ Oct/16/2014"</item>
         <item>@string/noti_panel</item>
         <item>@string/other</item>
         <item>@string/script_utils</item>
-    </string-array></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\strings.xml" qualifiers=""><string name="reboot_required_dialog_message">For this action to take effect, full device reboot is required. Would you like to reboot now?</string><string name="backup_restore_dialog_title">Backup/Restore Rom Control system data</string><string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string><string name="reboot_later_negative_button">later</string><string name="reboot_ui_text">Reboot SystemUI</string><string name="reboot_required_dialog_title">Device reboot required</string><string name="other">Others</string><string name="multiple_choice_preference_button_done">Done</string><string name="theme_dialog_title">Choose theme</string><string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string><string name="backup_complete_toast">Backup completed successfully. The backup file can be found at\n%1$s</string><string name="remap_key">Remaping</string><string name="backup_file_suffix" translatable="false">_RCBackup</string><string name="eragon_ui">SystemUI</string><string name="lockscreen">Lockscreen</string><string name="no_backup_dialog_title">No backup found on this device</string><string name="phone_utils">PhoneMods</string><string name="summaryOn">Enabled</string><string name="root_tools_exception_toast">File not found or root denied</string><string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string><string name="summaryOff">Disabled</string><string name="more_options">More options</string><string name="select_all">Select all</string><string name="wallpaper_scroll">Wallpaper scroll</string><string name="backup_and_restore">Backup &amp; Restore</string><string name="script_utils">Scripts</string><string name="navigation_drawer_close">Close navigation drawer</string><string name="reboot_recovery_text">Reboot Recovery</string><string name="changelog_version_title">ROM version: %1$s</string><string name="app_reboot_required_dialog_title">App reboot required</string><string name="addons">AddOns</string><string name="time_out">Time out</string><string name="choose_backup_dialog_title">Please choose backup to restore</string><string name="deselect_all">Deselect all</string><string name="run_script_confirm_dialog_positive_button">Yes, run</string><string name="noti_panel">NotiPanel</string><string name="press_color_to_apply">Press to apply</string><string name="no_su_dialog_title">No root privileges</string><string name="reboot_menu">Reboot menu</string><string name="app_reboot_required_dialog_message">For this action to take effect it is required to restart %1$s.\n\nPress OK to restart now</string><string name="set_theme">Set theme</string><string name="utils_launch">UtilsLaunch</string><string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string><string name="restore_dialog_description">This action will restore the following items to stock colors</string><string name="reboot_now_dialog_button">reboot now</string><string name="ime_animation_test_title">Test IME Animation Here</string><string name="no_su_dialog_dismiss_button_text">Whatever, man</string><string name="no_backup_dialog_message">Would you like to create new backup now?</string><string name="carrier_utils">Carrier</string><string name="navigation_drawer_open">Open navigation drawer</string><string name="dialog_color_picker">Pick Color</string><string name="root_progress_dialog_message">Please wait…</string><string name="command_executed_success_toast">Executed successfully</string><string name="restore_complete_toast">Restore complete</string><string name="about_us">About us</string><string name="restore_confirm_dialog_title">Please confirm restore</string><string name="sound_utils">Music</string><string name="app_name">  Refined  </string><string name="screen_timeout_summary">After %1$s of inactivity</string><string name="root_progress_dialog_title">Acquiring Root Access</string><string name="find_app">Find App</string><string name="run_script_confirm_dialog_title">Confirmation required</string><string name="reboot_device_text">Reboot Device</string><string name="no_su_dialog_message">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\styles.xml" qualifiers=""><integer name="default_theme">1</integer><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </string-array></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\strings.xml" qualifiers=""><string name="expansion_view_animation_enter">Enter</string><string name="expansion_view_animation_dialog_title">Select your animation</string><string name="backup_restore_dialog_title">Backup/Restore Rom Control system data</string><string name="toast_GrowFadeBottom_animation">GrowFadeBottom Animation</string><string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string><string name="toast_FastFade_animation">FastFade Animation</string><string name="expansion_view_slide_out">Slide</string><string name="qs_tile_animation_duration_superfast">Superfast</string><string name="dynamic_status_bar_gradient_summary">Overlay a gradient on the status bar</string><string name="multiple_choice_preference_button_done">Done</string><string name="qs_tile_animation_style_title">Tiles animation style</string><string name="qs_set_animation_interpolator">%1$s</string><string name="dynamic_status_bar_color_title">Dynamic status bar color</string><string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string><string name="eragon_ui">SystemUI</string><string name="qs_set_animation_style">%1$s</string><string name="no_backup_dialog_title">No backup found on this device</string><string name="summaryOn">Enabled</string><string name="toast_Honami_animation">Honami Animation</string><string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string><string name="quicksettings_tiles_category">Tile animation options</string><string name="qs_tile_animation_duration_fast">Fast</string><string name="expansion_view_last_app">Last App</string><string name="expansion_view_recents_enter">Recents Enter</string><string name="qs_tile_animation_style_off">No animation</string><string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string><string name="expansion_view_animation_left">Left</string><string name="expansion_view_toko_toast">Toko Toast</string><string name="expansion_view_animation_rotate">Rotate</string><string name="script_utils">Extra</string><string name="dynamic_status_bar_filter_title">Darkening</string><string name="reboot_recovery_text">Reboot Recovery</string><string name="addons">AddOns</string><string name="expansion_view_search_bar">SearchBar Animation</string><string name="reset_message">Reset all entries to default?</string><string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string><string name="choose_backup_dialog_title">Please choose backup to restore</string><string name="reboot_menu">Reboot menu</string><string name="app_reboot_required_dialog_message">For this action to take effect it is required to restart %1$s.\n\nPress OK to restart now</string><string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string><string name="toast_Tn_animation">Tn Animation</string><string name="expansion_view_animation_title">Task Manager Animation</string><string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string><string name="toast_Translucent_animation">Translucent Animation</string><string name="dynamic_status_bar_filter_summary">Overlay a darkening filter on the status bar</string><string name="ime_animation_test_title">Test IME Animation Here</string><string name="toast_GrowFadeCenter_animation">GrowFadeCenter Animation</string><string name="dialog_color_picker">Pick Color</string><string name="root_progress_dialog_message">Please wait…</string><string name="expansion_view_animation_up">Up</string><string name="command_executed_success_toast">Executed successfully</string><string name="dynamic_status_bar_title">Dynamic status bar</string><string name="toast_animation_title">Toast animations</string><string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string><string name="app_name">  Refined  </string><string name="qs_anim_title">QS animations</string><string name="reboot_device_text">Reboot Device</string><string name="toast_GrowFade_animation">GrowFade Animation</string><string name="dynamic_status_bar_gradient_title">Gradient</string><string name="dynamic_status_bar_filter_value">The intensity of the darkening filter</string><string name="toast_SlideLeft_animation">SlideLeft Animation</string><string name="reboot_required_dialog_message">For this action to take effect, full device reboot is required. Would you like to reboot now?</string><string name="reboot_later_negative_button">later</string><string name="expansion_view_fade">Fade</string><string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string><string name="reboot_ui_text">Reboot SystemUI</string><string name="reboot_required_dialog_title">Device reboot required</string><string name="dlg_reset_android">Ok</string><string name="other">Others</string><string name="theme_dialog_title">Choose theme</string><string name="qs_set_animation_duration">%1$s</string><string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string><string name="backup_complete_toast">Backup completed successfully. The backup file can be found at\n%1$s</string><string name="remap_key">Remaping</string><string name="toast_default_animation">Default</string><string name="qs_anim_summary">customize quick settings animation</string><string name="backup_file_suffix" translatable="false">_RCBackup</string><string name="lockscreen">Lockscreen</string><string name="phone_utils">PhoneMods</string><string name="toast_Toko_animation">Toko Animation</string><string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string><string name="expansion_view_animation_turn">Turn</string><string name="toast_Xylon_animation">Xylon Animation</string><string name="qs_tile_animation_duration_low">Low</string><string name="qs_tile_animation_style_rotate">Rotate</string><string name="root_tools_exception_toast">File not found or root denied</string><string name="summaryOff">Disabled</string><string name="dsb_gradient_filter_value_0">Off</string><string name="dsb_gradient_filter_value_1">Only on the desktop</string><string name="dsb_gradient_filter_value_2">Everywhere except the desktop</string><string name="dsb_gradient_filter_value_3">On</string><string name="more_options">More options</string><string name="select_all">Select all</string><string name="wallpaper_scroll">Wallpaper scroll</string><string name="backup_and_restore">Backup &amp; Restore</string><string name="toast_none_animation">None</string><string name="navigation_drawer_close">Close navigation drawer</string><string name="changelog_version_title">ROM version: %1$s</string><string name="cancel_2">Cancel</string><string name="app_reboot_required_dialog_title">App reboot required</string><string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string><string name="time_out">Time out</string><string name="deselect_all">Deselect all</string><string name="run_script_confirm_dialog_positive_button">Yes, run</string><string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string><string name="dynamic_status_bar_color_summary">Automatically update background color of the status bar</string><string name="noti_panel">NotiPanel</string><string name="press_color_to_apply">Press to apply</string><string name="no_su_dialog_title">No root privileges</string><string name="toast_fade_animation">Fade Animation</string><string name="set_theme">Set theme</string><string name="expansion_view_task_open">Task Open</string><string name="utils_launch">UtilsLaunch</string><string name="expansion_view_animation_down">Down (Default)</string><string name="restore_dialog_description">This action will restore the following items to stock colors</string><string name="reboot_now_dialog_button">reboot now</string><string name="toast_SlideRight_animation">SlideRight Animation</string><string name="no_su_dialog_dismiss_button_text">Whatever, man</string><string name="no_backup_dialog_message">Would you like to create new backup now?</string><string name="expansion_view_xylon_toast">Toast</string><string name="carrier_utils">Carrier</string><string name="navigation_drawer_open">Open navigation drawer</string><string name="restore_complete_toast">Restore complete</string><string name="about_us">About us</string><string name="expansion_view_rotate">Reverse Rotate</string><string name="restore_confirm_dialog_title">Please confirm restore</string><string name="sound_utils">Music</string><string name="screen_timeout_summary">After %1$s of inactivity</string><string name="root_progress_dialog_title">Acquiring Root Access</string><string name="find_app">Find App</string><string name="run_script_confirm_dialog_title">Confirmation required</string><string name="qs_tile_animation_style_flip">Flip</string><string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string><string name="expansion_view_animation_right">Right</string><string name="qs_tile_animation_duration_title">Tiles animation duration</string><string name="expansion_view_animation_summary">Change the enter/exit animation of the panel change</string><string name="reset_2">Reset</string><string name="no_su_dialog_message">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string><string name="qs_tile_animation_duration_default">Default</string><string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string></file><file path="C:\Users\anan_\AndroidStudioProjects\RefinedRC\app\src\main\res\values\styles.xml" qualifiers=""><integer name="default_theme">1</integer><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

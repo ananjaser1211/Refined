@@ -159,7 +159,7 @@
             <intent android:action="android.intent.action.VIEW"
                     android:data="http://forum.xda-developers.com/android/general/source-code-6thgear-romcontrol-v2-devs-t3411916" />
         </PreferenceScreen>
-	
+
 	
 	</PreferenceCategory>
 	
