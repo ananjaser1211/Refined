@@ -69,7 +69,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Refined RC V1"
+                    android:text="Refined RC"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 

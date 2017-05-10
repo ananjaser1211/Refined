@@ -16,7 +16,6 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="dialog_color_picker">Pick Color</string>
     <string name="press_color_to_apply">Press to apply</string>
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
@@ -55,7 +54,7 @@
     <string name="carrier_utils">Carrier</string>
     <string name="sound_utils">Music</string>
     <string name="other">Others</string>
-	<string name="script_utils">Scripts</string>
+	<string name="script_utils">Extra</string>
 	
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>

@@ -48,7 +48,7 @@
 
     <PreferenceCategory android:title="Blur">
 
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Native Blur" android:key="pulldown_blur_bg" android:summaryOn="Native Blur ON" android:summaryOff="Native Blur off" app:packageNameToKill="com.android.systemui"/>
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Native Blur" android:key="pulldown_blur_bg" android:summaryOn="Native Blur ON" android:summaryOff="Native Blur off" android:defaultValue="true" app:packageNameToKill="com.android.systemui"/>
 
     </PreferenceCategory>
 

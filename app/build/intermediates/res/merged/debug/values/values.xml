@@ -284,8 +284,7 @@
     </string-array>
     <string-array name="battery_bar_entries">
         <item>Hide</item>
-        <item>Show up top</item>
-        <item>Show down below</item>
+        <item>Show</item>
     </string-array>
     <string-array name="battery_bar_height_enties">
         <item>1.0 Dip</item>
@@ -332,7 +331,6 @@
         <item>4</item>
     </string-array>
     <string-array name="battery_bar_values">
-        <item>2</item>
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -363,12 +361,6 @@
     <string-array name="carrier_label_values">
         <item>0</item>
         <item>3</item>
-    </string-array>
-    <string-array name="changelog_items">
-        <item> No Changelog due to MY Rom NOT Public Yet</item>
-        <item>Pssssssssssssssssssssssttt ther </item>
-        <item> Cool </item>
-        <item>  huh   </item>
     </string-array>
     <string-array name="circle_battery_animation_speed_entries">
         <item>None</item>
@@ -2770,14 +2762,13 @@ Oct/16/2014"</item>
     <string name="restore_confirm_dialog_title">Please confirm restore</string>
     <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
-    <string name="rom_version_for_changelog">Eragon Rom v 0.1 </string>
     <string name="root_progress_dialog_message">Please wait…</string>
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
     <string name="root_tools_exception_toast">File not found or root denied</string>
     <string name="run_script_confirm_dialog_positive_button">Yes, run</string>
     <string name="run_script_confirm_dialog_title">Confirmation required</string>
     <string name="screen_timeout_summary">After %1$s of inactivity</string>
-    <string name="script_utils">Scripts</string>
+    <string name="script_utils">Extra</string>
     <string name="search_menu_title">Search</string>
     <string name="select_all">Select all</string>
     <string name="set_theme">Set theme</string>

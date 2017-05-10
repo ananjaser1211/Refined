@@ -96,19 +96,6 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
-    <PreferenceCategory android:title="Recents RamBar">
-        <PreferenceScreen android:title="RamBar" android:summary="Configure Recents Panel RAMBAR">
-
-            <PreferenceCategory android:title="Enabling Requires UI Reboot">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="AOKP Ram Bar" android:key="aokpram" android:defaultValue="1" android:summaryOn="Ram Bar is shown" android:summaryOff="Ram Bar is hidden" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Free Ram Text Color" android:key="free_ram_text" android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Used Ram Text Color" android:key="used_ram_text" android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" app:packageNameToKill="com.android.systemui"/>
-            </PreferenceCategory>
-
-
-        </PreferenceScreen>
-    </PreferenceCategory>
-
     <PreferenceCategory android:title="BattreyBar Settings">
     <PreferenceScreen android:title="Battery Bar" android:summary="Display Line on top for battery">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
@@ -132,6 +119,8 @@
         <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="VirtualLock" android:key="VirtualLock" android:summaryOn="VirtualLock ON" android:summaryOff="VirtualLock off" />
 
     </PreferenceCategory>
+
+
 </PreferenceScreen>
 
 
