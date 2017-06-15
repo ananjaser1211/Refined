@@ -25,7 +25,6 @@
             android:summary="Shows selected Animation"
             android:title="Toast Test" />
     </PreferenceCategory>
-
     <PreferenceCategory
         android:title="Carrier Label on notifications">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
