@@ -1,56 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="System Animation Mods">
+    <PreferenceScreen android:title="System Animations" android:summary="Toast Animation/ListView Animations/Matrix Animation">
+        <PreferenceCategory android:title="Matrix Animations Features " />
+        <PreferenceScreen android:title="Matrix Elements" android:summary="Matrix Options">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Matrix Recents Anim " android:key="matrix_anim" android:summaryOn="Enabled " android:summaryOff="Disabled"  />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Matrix Text Colorized " android:dependency="matrix_anim" android:summary="Choose Matrix Text color" android:key="recents_matrix_anim_text_color" android:defaultValue="\#ff286fdd" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Matrix BG Color" android:dependency="matrix_anim" android:summary="Choose Matrix BG color" android:key="recents_matrix_anim_bg_color" android:defaultValue="\#ff000000" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="255" android:title="Matrix Text Transparency" android:dependency="matrix_anim" android:key="recents_matrix_anim_text_alpha" android:defaultValue="255" min="5" unitsRight="" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="50" android:title="Matrix Text Font Size" android:dependency="matrix_anim" android:key="recents_matrix_anim_font_size" android:defaultValue="40" min="24" unitsRight="" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="50" android:title="Matrix Frequency" android:dependency="matrix_anim" android:key="recents_matrix_anim_frequency" android:defaultValue="5" min="1" unitsRight="" />
+        </PreferenceScreen>
 
-    <PreferenceCategory android:title="Matrix Animations Features " />
-    <PreferenceScreen android:title="Matrix Elements" android:summary="Matrix Options">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Matrix Recents Anim " android:key="matrix_anim" android:summaryOn="Enabled " android:summaryOff="Disabled"  />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Matrix Text Colorized " android:dependency="matrix_anim" android:summary="Choose Matrix Text color" android:key="recents_matrix_anim_text_color" android:defaultValue="\#ff286fdd" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Matrix BG Color" android:dependency="matrix_anim" android:summary="Choose Matrix BG color" android:key="recents_matrix_anim_bg_color" android:defaultValue="\#ff000000" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="255" android:title="Matrix Text Transparency" android:dependency="matrix_anim" android:key="recents_matrix_anim_text_alpha" android:defaultValue="255" min="5" unitsRight="" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="50" android:title="Matrix Text Font Size" android:dependency="matrix_anim" android:key="recents_matrix_anim_font_size" android:defaultValue="40" min="24" unitsRight="" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="50" android:title="Matrix Frequency" android:dependency="matrix_anim" android:key="recents_matrix_anim_frequency" android:defaultValue="5" min="1" unitsRight="" />
+        <PreferenceCategory android:title="Custom ToastAnimations">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toast_animation_entries" android:title="Toast Animations UI Framework " android:key="animation_toast" android:summary="%s" android:defaultValue="0" android:entryValues="@array/toast_animation_values" />
+            <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                app:scriptFileName="test.sh"
+                android:summary="Shows selected Animation"
+                android:title="Toast Test" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Mokee Listview Animation" android:summary="Set Scrolling Animation">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/listview_animation_entries" android:title="Listview animation" android:key="listview_animation" android:dependency="listview_animation" android:defaultValue="0" android:entryValues="@array/listview_animation_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/listview_interpolator_entries" android:title="Listview interpolator" android:key="listview_interpolator" android:dependency="listview_interpolator" android:defaultValue="0" android:entryValues="@array/listview_interpolator_values" />
+        </PreferenceCategory>
+
     </PreferenceScreen>
-    <PreferenceCategory android:title="Lockscreen Carrier">
+   </PreferenceCategory>
+    <PreferenceCategory android:title="Carrier label customizatoins">
     <PreferenceScreen android:title="Carrier Label" android:summary="Custom carrier text">
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Use Custom Carrier Text" android:key="custom_lock_carrier" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
-    <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference android:title="Carrier Custom Text" android:key="custom_lock_carrier_text" android:summary="Edit carrier label" android:dependency="custom_lock_carrier" android:defaultValue="Refined" android:dialogTitle="Set Custom Text" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Carrier Color" android:key="carrier_color" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+        <PreferenceCategory android:title="Carrier label in lockscreen">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Use Custom Carrier Text" android:key="custom_lock_carrier" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+            <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference android:title="Carrier Custom Text" android:key="custom_lock_carrier_text" android:summary="Edit carrier label" android:dependency="custom_lock_carrier" android:defaultValue="Refined" android:dialogTitle="Set Custom Text" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Carrier Color" android:key="carrier_color" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Carrier Label on notifications">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Carrier label visibility"
+                android:defaultValue="true"
+                android:summaryOff="Hidden"
+                android:summaryOn="Shown"
+                android:key="carrier_label_visibility"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:dependency="carrier_label_visibility"
+                android:defaultValue="#ffffff"
+                android:key="carrier_label_text_color"
+                android:title="Carrier label text color"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="Carrier label text"
+                android:entries="@array/carrier_entries"
+                android:entryValues="@array/carrier_entry_values"
+                android:defaultValue="0"
+                app:dependentValue="0"
+                android:key="is_custom_carrier_label"
+                android:dependency="carrier_label_visibility"/>
+            <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+                android:title="Custom text for carrier label"
+                android:defaultValue="REFINED"
+                android:dependency="is_custom_carrier_label"
+                android:key="custom_carrier_label"/>
+        </PreferenceCategory>
 </PreferenceScreen>
     </PreferenceCategory>
-    <PreferenceCategory android:title="Custom ToastAnimations">
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toast_animation_entries" android:title="Toast Animations UI Framework " android:key="animation_toast" android:summary="%s" android:defaultValue="0" android:entryValues="@array/toast_animation_values" />
-        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
-            app:scriptFileName="test.sh"
-            android:summary="Shows selected Animation"
-            android:title="Toast Test" />
+    <PreferenceCategory android:title="Music Customizations">
+        <PreferenceScreen android:title="Set Color" android:summary="Customize Samsung music Quick panel and Lockscreen Buttons Colors + Text Colors">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Title App Name text color" android:key="quick_panel_brand" android:defaultValue="\#ff50a5bf" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Artist text color" android:key="artist_noti_text" android:defaultValue="\#42ACD3" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Title text color" android:key="smusic_noti_text" android:defaultValue="\#ff252525" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Prev button Icon color" android:key="prev_icon" android:defaultValue="\#556471" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Play Pause button Icon color" android:key="play_pause_icon" android:defaultValue="\#556471" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Next button Icon color" android:key="next_icon" android:defaultValue="\#556471" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Close button Icon color" android:key="quick_panel_close_icon" android:defaultValue="\#556471" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Launch SMusic" android:summary="Re-launch SMusic" app:componentName="com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity" />
+        </PreferenceScreen>
+        <com.wubydax.romcontrol.v2.prefs.FilePreference android:title="S8 Music edge light" android:key="hades_edgelight" android:defaultValue="true" android:summaryOn="Edge light enabled" android:summaryOff="Edge light disabled" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" />
     </PreferenceCategory>
-    <PreferenceCategory
-        android:title="Carrier Label on notifications">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Carrier label visibility"
-            android:defaultValue="true"
-            android:summaryOff="Hidden"
-            android:summaryOn="Shown"
-            android:key="carrier_label_visibility"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:dependency="carrier_label_visibility"
-            android:defaultValue="#ffffff"
-            android:key="carrier_label_text_color"
-            android:title="Carrier label text color"/>
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:title="Carrier label text"
-            android:entries="@array/carrier_entries"
-            android:entryValues="@array/carrier_entry_values"
-            android:defaultValue="0"
-            app:dependentValue="0"
-            android:key="is_custom_carrier_label"
-            android:dependency="carrier_label_visibility"/>
-        <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
-            android:title="Custom text for carrier label"
-            android:defaultValue="REFINED"
-            android:dependency="is_custom_carrier_label"
-            android:key="custom_carrier_label"/>
-    </PreferenceCategory>
+
 
 </PreferenceScreen>

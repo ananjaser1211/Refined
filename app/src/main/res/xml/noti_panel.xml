@@ -3,55 +3,7 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-        <PreferenceCategory android:title="Virtual Buttons (set one button on position)">
-            <PreferenceScreen android:title="Lock Button">
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Right side" android:key="cocoyaya_rightcornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Left side" android:key="cocoyaya_leftcornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Center" android:key="cocoyaya_centerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-            </PreferenceScreen>
-            <PreferenceScreen android:title="Home Button">
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Right side" android:key="cocoyaya_rightcornerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Left side" android:key="cocoyaya_leftcornerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Center" android:key="cocoyaya_centerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-            </PreferenceScreen>
-            <PreferenceScreen android:title="Recent Button">
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Right side" android:key="cocoyaya_rightcornertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Left side" android:key="cocoyaya_leftcornertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Center" android:key="cocoyaya_centertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
-            </PreferenceScreen>
-        </PreferenceCategory>
-    <PreferenceCategory android:title="Dynamic StatusBar">
-    <PreferenceScreen android:title="Dynamic Gradient StatusBar">
-    <SwitchPreference
-        android:title="Dynamic StatusBar Color"
-        android:key="dynamic_toggle"
-        android:defaultValue="false"
-        android:summaryOn="Dynamic StatusBar features enabled"
-        android:summaryOff="Dynamic StatusBar features disabled" />
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-        android:entries="@array/dsb_gradient_filter_entries"
-        android:title="@string/dynamic_status_bar_gradient_title"
-        android:key="dynamic_status_bar_gradient_state"
-        android:dependency="dynamic_toggle"
-        android:summary="@string/dynamic_status_bar_gradient_summary"
-        android:defaultValue="2"
-        android:entryValues="@array/dsb_gradient_filter_values" />
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-        android:entries="@array/dsb_gradient_filter_entries"
-        android:title="@string/dynamic_status_bar_filter_title"
-        android:key="dynamic_status_bar_filter_state"
-        android:dependency="dynamic_toggle"
-        android:summary="@string/dynamic_status_bar_filter_summary"
-        android:defaultValue="2"
-        android:entryValues="@array/dsb_gradient_filter_values" />
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-        android:max="70"
-        android:title="@string/dynamic_status_bar_filter_value"
-        android:key="dynamic_status_bar_filter_value"
-        android:dependency="dynamic_toggle"
-        android:defaultValue="10" min="0" />
-    </PreferenceScreen>
-    </PreferenceCategory>
+
     <PreferenceCategory
         android:title="Custom Data Usage">
         <PreferenceScreen android:title="DataUsage Preference">
@@ -161,25 +113,32 @@
         </PreferenceScreen>
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Singal allingment control">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/SignalPositionName" android:title="Signal Position" android:key="leftsignal" android:defaultValue="0" android:entryValues="@array/SignalPositionValue" />
-    </PreferenceCategory>
-
     <PreferenceCategory android:title="Blur">
 
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Native Blur" android:key="pulldown_blur_bg" android:summaryOn="Native Blur ON" android:summaryOff="Native Blur off" android:defaultValue="true" app:packageNameToKill="com.android.systemui"/>
-
+        <com.wubydax.romcontrol.v2.prefs.FilePreference android:title="Quick Panel blur" android:key="hades_qpblur" android:defaultValue="true" android:summaryOn="Quick Panel blur enabled" android:summaryOff="Quick Panel blur disabled" app:packageNameToKill="com.android.systemui" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="MultiUser (Reboot UI)">
+    <PreferenceCategory android:title="MultiUser">
 
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Multi-user Avatar"
             android:key="multiuser_avatar"
             android:defaultValue="false"
             android:summaryOn="Multi-user Avatar shown"
-            android:summaryOff="Multi-user Avatar hidden" />
+            android:summaryOff="Multi-user Avatar hidden"
+            app:packageNameToKill="com.android.systemui" />
 
     </PreferenceCategory>
+    <PreferenceCategory android:title="InterfaceMods">
+        <com.wubydax.romcontrol.v2.prefs.FilePreference android:title="Hide text in toggles" android:key="hide_text_toggles" android:defaultValue="true" android:summaryOn="Text hided" android:summaryOff="Text showed" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Notification Grouping" android:key="aspire_noti_grouping" android:defaultValue="true" android:summaryOn="Grouped Notifications is On" android:summaryOff="Grouped Notifications is Off" app:packageNameToKill="com.android.systemui" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Brightness Slider on First Swipe" android:key="aspire_upper_brightness" android:defaultValue="false" android:summaryOn="Brightness Slider on First Swipe is Enabled" android:summaryOff="Brightness Slider on First Swipe is Disabled" app:packageNameToKill="com.android.systemui" />
+        <SwitchPreference android:title="Make Ongoing Notifications Removable" android:key="ongoing_notifications" android:defaultValue="false" android:summaryOn="Ongoing Notifications are removeable" android:summaryOff="Ongoing Notifications are permanent" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="QSPanel_NumberCount" android:summary="Number shown on screen" android:entryValues="@array/toggle_values" />
+
+    </PreferenceCategory>
+
+
+
 
 </PreferenceScreen>

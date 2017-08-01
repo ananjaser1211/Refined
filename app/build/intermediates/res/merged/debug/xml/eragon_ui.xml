@@ -106,17 +106,89 @@
     </PreferenceScreen>
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Battery Style">
+    <PreferenceCategory android:title="StatusBar">
 
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Stock Battery" android:key="hide_battery_stock" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery Percentage" android:key="display_battery_percentage" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit Battery" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Percentage Color (RebootUI)"
+            android:title="Percentage Color"
             android:key="battery_text_color"
             android:defaultValue="#ffffffff"
-            android:summary="Choose battery percent color" />
+            android:summary="Choose battery percent color"
+            app:packageNameToKill="com.android.systemui" />
     </PreferenceCategory>
+
+    <PreferenceScreen android:title="More StatusBar Mods" android:summary="Clock / Battery and more">
+
+        <PreferenceCategory android:title="@string/Clock_Style">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Stock_clock" android:key="status_bar_clock" android:defaultValue="true" android:summaryOn="Show" android:summaryOff="Hide" />
+            <PreferenceScreen android:title="@string/Stock_Clock_Settings" >
+                <PreferenceCategory android:title="@string/Clock">
+                    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="@string/Clock_Size" android:key="statusbar_clock_font_size" android:dependency="status_bar_clock" android:defaultValue="15" app:maxValue="22" app:unitsValue="dp" />
+                    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_font_style_entries" android:title="Clock Font" android:key="statusbar_clock_font_style" android:defaultValue="8" android:entryValues="@array/clock_font_style_values" />
+                    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show Seconds" android:key="clock_use_second" android:dependency="status_bar_clock" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+                    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/status_bar_am_pm_entries" android:title="Display PM/AM" android:key="statusbar_clock_am_pm_style" android:defaultValue="0" android:entryValues="@array/status_bar_am_pm_values" />
+                </PreferenceCategory>
+            </PreferenceScreen>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Minit Clock" android:key="clock_show_int" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" />
+            <PreferenceScreen android:title="Miniti Clock Settings" android:summary="Lunch app">
+                <intent android:targetPackage="three.minit.clock" android:action="android.intent.action.MAIN" android:targetClass="three.minit.clock.ClockSettings" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Singal allingment control">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/SignalPositionName" android:title="Signal Position" android:key="leftsignal" android:defaultValue="0" android:entryValues="@array/SignalPositionValue" app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Dynamic StatusBar">
+            <PreferenceScreen android:title="Dynamic Gradient StatusBar">
+                <SwitchPreference
+                    android:title="Dynamic StatusBar Color"
+                    android:key="dynamic_toggle"
+                    android:defaultValue="true"
+                    android:summaryOn="Dynamic StatusBar features enabled"
+                    android:summaryOff="To TurnOff, Enable gradiant and Set all values to 0" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:entries="@array/dsb_gradient_filter_entries"
+                    android:title="@string/dynamic_status_bar_gradient_title"
+                    android:key="dynamic_status_bar_gradient_state"
+                    android:dependency="dynamic_toggle"
+                    android:summary="@string/dynamic_status_bar_gradient_summary"
+                    android:defaultValue="2"
+                    android:entryValues="@array/dsb_gradient_filter_values" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:entries="@array/dsb_gradient_filter_entries"
+                    android:title="@string/dynamic_status_bar_filter_title"
+                    android:key="dynamic_status_bar_filter_state"
+                    android:dependency="dynamic_toggle"
+                    android:summary="@string/dynamic_status_bar_filter_summary"
+                    android:defaultValue="2"
+                    android:entryValues="@array/dsb_gradient_filter_values" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:max="70"
+                    android:title="@string/dynamic_status_bar_filter_value"
+                    android:key="dynamic_status_bar_filter_value"
+                    android:dependency="dynamic_toggle"
+                    android:defaultValue="10" min="0" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Virtual Buttons (set one button on position)">
+            <PreferenceScreen android:title="Lock Button">
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Right side" android:key="cocoyaya_rightcornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Left side" android:key="cocoyaya_leftcornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Center" android:key="cocoyaya_centerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="Home Button">
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Right side" android:key="cocoyaya_rightcornerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Left side" android:key="cocoyaya_leftcornerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Center" android:key="cocoyaya_centerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="Recent Button">
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Right side" android:key="cocoyaya_rightcornertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Left side" android:key="cocoyaya_leftcornertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Center" android:key="cocoyaya_centertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+    </PreferenceScreen>
 
 </PreferenceScreen>
 

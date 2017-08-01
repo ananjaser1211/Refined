@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Eragon v2.1.iml" filepath="$PROJECT_DIR$/Eragon v2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Refined.iml" filepath="$PROJECT_DIR$/Refined.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefinedRC.iml" filepath="$PROJECT_DIR$/RefinedRC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

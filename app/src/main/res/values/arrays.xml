@@ -2452,4 +2452,15 @@ Oct/16/2014"</item>
         <item>0</item>
         <item>1</item>
     </string-array>
+
+    <string-array name="status_bar_am_pm_entries">
+        <item>@string/Hidden</item>
+        <item>@string/Small</item>
+        <item>@string/Normal</item>
+    </string-array>
+    <string-array name="status_bar_am_pm_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

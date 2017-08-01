@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\dialog_color_picker.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\src\\main\\res\\layout-land\\dialog_color_picker.xml"
+        "merged": "D:\\Refined\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\dialog_color_picker.xml",
+        "source": "D:\\Refined\\app\\src\\main\\res\\layout-land\\dialog_color_picker.xml"
     },
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\reboot_layout.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\src\\main\\res\\layout-land\\reboot_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\dialog_color_picker.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\layout-land\\dialog_color_picker.xml"
-    },
-    {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\reboot_layout.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\layout-land\\reboot_layout.xml"
+        "merged": "D:\\Refined\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\reboot_layout.xml",
+        "source": "D:\\Refined\\app\\src\\main\\res\\layout-land\\reboot_layout.xml"
     }
 ]

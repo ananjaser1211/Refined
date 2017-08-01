@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadeout.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\src\\main\\res\\animator\\fadeout.xml"
+        "merged": "D:\\Refined\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadein.xml",
+        "source": "D:\\Refined\\app\\src\\main\\res\\animator\\fadein.xml"
     },
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadein.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\src\\main\\res\\animator\\fadein.xml"
-    },
-    {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadein.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\animator\\fadein.xml"
-    },
-    {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadeout.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\src\\main\\res\\animator\\fadeout.xml"
+        "merged": "D:\\Refined\\app\\build\\intermediates\\res\\merged\\debug\\animator\\fadeout.xml",
+        "source": "D:\\Refined\\app\\src\\main\\res\\animator\\fadeout.xml"
     }
 ]

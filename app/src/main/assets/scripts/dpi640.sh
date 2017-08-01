@@ -3,4 +3,4 @@ export PATH=/system/bin:$PATH
 
 mount -o rw,remount /system
 
-wm density 640
+wm density 420

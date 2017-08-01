@@ -1,5 +1,6 @@
 #!/system/bin/sh
+export PATH=/system/bin:$PATH
 
 mount -o rw,remount /system
 
-cp -p /system/ther/files/audio/silent.ogg /system/media/audio/ui/TW_Volume_control.ogg
+wm density 480

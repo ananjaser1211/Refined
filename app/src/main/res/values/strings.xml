@@ -167,5 +167,17 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
+
+    <string name="Clock">Clock</string>
+    <string name="Clock_Color">Clock Color</string>
+    <string name="Clock_Position">Clock Position</string>
+    <string name="Clock_Settings">Clock Settings</string>
+    <string name="Clock_Size">Clock Size</string>
+    <string name="Clock_Style">Clock Style</string>
+    <string name="Stock_Clock_Settings">Stock Clock Settings</string>
+    <string name="Stock_clock">Stock Clock</string>
+    <string name="Hidden">Hidden</string>
+    <string name="Small">Small</string>
+    <string name="Normal">Normal</string>
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

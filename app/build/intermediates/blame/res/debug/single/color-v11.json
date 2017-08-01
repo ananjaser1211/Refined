@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\anan_\\.android\\build-cache\\2407c8fffea40aa78e17080a93dc3cd87d29ad96\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\Refined\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\anan_\\.android\\build-cache\\d554d7577b799242b2f32f7a787d40f6a9ae1b1a\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\anan_\\AndroidStudioProjects\\RefinedRC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\anan_\\AndroidStudioProjects\\Eragon\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\anan_\\.android\\build-cache\\2407c8fffea40aa78e17080a93dc3cd87d29ad96\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\Refined\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\anan_\\.android\\build-cache\\d554d7577b799242b2f32f7a787d40f6a9ae1b1a\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]
