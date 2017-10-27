@@ -2,12 +2,13 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="HOT_WARM"
+    build-mode="FULL"
+    density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506533197101"
+    timestamp="1509111716147"
     token="-6940956483781343812"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,12 +24,45 @@
         duration="0" />
 
     <artifact
-        location="D:\Refined\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="D:\Refined\app\build\outputs\apk\RomControl-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1506532250517"
+        timestamp="1509111716147"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Refined\app\build\outputs\apk\RomControl-debug.apk"
@@ -66,22 +100,6 @@
         <artifact
             location="D:\Refined\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506532433205"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\Refined\app\build\outputs\apk\RomControl-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1506533197101"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Refined\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

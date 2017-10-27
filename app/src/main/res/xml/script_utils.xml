@@ -76,6 +76,12 @@
         </PreferenceScreen>
         <com.wubydax.romcontrol.v2.prefs.FilePreference android:title="S8 Music edge light" android:key="hades_edgelight" android:defaultValue="true" android:summaryOn="Edge light enabled" android:summaryOff="Edge light disabled" app:packageNameToKill="com.sec.android.app.music" app:isSilent="false" />
     </PreferenceCategory>
-
+a
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Long press Back to FORCE CLOSE app"
+        android:summaryOn="Enabled"
+        android:summaryOff="Disabled"
+        android:key="back_to_kill"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

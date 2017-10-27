@@ -82,11 +82,9 @@
             android:summary="Manage root permissions for apps and services"/>
 	
 	
-	
 	<com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="AdAway" android:summary="Block Advertising in a lot of apps" app:componentName="org.adaway/org.adaway.ui.BaseActivity" />
     <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Greenify" android:summary="Hibernate Apps with Greenify to help further with battery conservation" app:componentName="com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity" />
     <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="WizIconizer" android:summary="TouchWiz Icon Changer" app:componentName="com.wiziconizer/com.wiziconizer.HomeActivity" />
-
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="UPSM Manager" android:summary="Enable extra apps for Ultra Power Save Mode" app:componentName="mobi.xperiacle.upsm.manager/mobi.xperiacle.upsm.manager.MainActivity" />
 
 
@@ -140,8 +138,7 @@
             <intent android:action="android.intent.action.VIEW"
                     android:data="http://forum.xda-developers.com/showthread.php?t=2799050" />
         </PreferenceScreen>
-		
-		
+
     	<PreferenceScreen
             android:title="Unified S6 TW MM guides thread"
             android:icon="@drawable/icon_5"
