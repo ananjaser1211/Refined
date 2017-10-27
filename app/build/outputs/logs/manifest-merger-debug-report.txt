@@ -1,20 +1,41 @@
 -- Merging decision tree log ---
 manifest
 ADDED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
+MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\175caf050c3220b70ea59bd820777171\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\ce09b0616b094b7c560408def801513b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\19b21233defe4d555909122141646397\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.2.0.aar\6e09183cdaa740bf046d9a5a56729e0e\AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\71e0411b519b7299a061f008052e9720\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\f6feafada37d28ee3c0d85507e7648a0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\0cecb518b9dd7189818cc3c7d801cd0f\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\78dd288c5df0f54ef8914c5ca64494e0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\0484291eac5aeee722e20d9fc001abff\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\6951a7122d9bac12cceabea06bf9b71b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\c11201f734598f50e64cfa6fec51683f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\ed334fc415ccc81ee6708cfc158e42ef\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\842f3278a8575314c98a105359e18430\AndroidManifest.xml:17:1-27:12
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
 	package
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:4:11-46
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:3:11-57
-	xmlns:android
-		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:2:1-93:12
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_SETTINGS
 ADDED from D:\Refined\app\src\main\AndroidManifest.xml:6:5-72
 	android:name
@@ -147,30 +168,42 @@ ADDED from D:\Refined\app\src\main\AndroidManifest.xml:49:5-78
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:49:22-76
 application
 ADDED from D:\Refined\app\src\main\AndroidManifest.xml:61:5-91:19
-MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.android\build-cache\029da1a052bdb1d5fef051a939dda47474180690\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.android\build-cache\d554d7577b799242b2f32f7a787d40f6a9ae1b1a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.android\build-cache\5ad26c2300d6769168caec93efbb5fb01f4776c4\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.android\build-cache\88432f4231c85e8637366017bf89a004169e02d2\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.android\build-cache\11154df4abd6172f569ffa03891c59a1aa844d9a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.android\build-cache\37c4ee1777d84273fba31859889fa0b11993903b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.android\build-cache\e272853a3cdaaf1fa54a116d0c96b62fa26e9609\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.android\build-cache\7d1540ec6d8fa62274dcf004cd6e04cee98b7c9c\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.android\build-cache\0273f1206782fd9959472b6535ee27ba795826f5\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.android\build-cache\921bc56ba78b3c3a17c568708304f820f234d875\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.android\build-cache\368a7a927d0046aa6308d5a4bc9ad91bfc629339\output\AndroidManifest.xml:22:5-20
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.android\build-cache\f53869d736eccdb54464c4e79c5a7be3fc6706e0\output\AndroidManifest.xml:9:5-20
-	android:label
-		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:65:9-41
+MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\175caf050c3220b70ea59bd820777171\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\175caf050c3220b70ea59bd820777171\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\ce09b0616b094b7c560408def801513b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\ce09b0616b094b7c560408def801513b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\19b21233defe4d555909122141646397\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\19b21233defe4d555909122141646397\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.2.0.aar\6e09183cdaa740bf046d9a5a56729e0e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.2.0.aar\6e09183cdaa740bf046d9a5a56729e0e\AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\71e0411b519b7299a061f008052e9720\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\71e0411b519b7299a061f008052e9720\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\f6feafada37d28ee3c0d85507e7648a0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\f6feafada37d28ee3c0d85507e7648a0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\0cecb518b9dd7189818cc3c7d801cd0f\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\0cecb518b9dd7189818cc3c7d801cd0f\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\78dd288c5df0f54ef8914c5ca64494e0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\78dd288c5df0f54ef8914c5ca64494e0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\0484291eac5aeee722e20d9fc001abff\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\0484291eac5aeee722e20d9fc001abff\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\6951a7122d9bac12cceabea06bf9b71b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\6951a7122d9bac12cceabea06bf9b71b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\ed334fc415ccc81ee6708cfc158e42ef\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\ed334fc415ccc81ee6708cfc158e42ef\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\842f3278a8575314c98a105359e18430\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\842f3278a8575314c98a105359e18430\AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:67:9-35
+	android:label
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:65:9-41
 	tools:ignore
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:69:9-48
-	android:allowBackup
-		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:63:9-35
-	android:icon
-		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:64:9-43
 	android:largeHeap
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:66:9-33
+	android:icon
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:64:9-43
+	android:allowBackup
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:63:9-35
 	android:theme
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:68:9-44
 	android:name
@@ -221,24 +254,43 @@ ADDED from D:\Refined\app\src\main\AndroidManifest.xml:87:9-90:19
 		ADDED from D:\Refined\app\src\main\AndroidManifest.xml:88:13-61
 uses-sdk
 INJECTED from D:\Refined\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.android\build-cache\029da1a052bdb1d5fef051a939dda47474180690\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.android\build-cache\d554d7577b799242b2f32f7a787d40f6a9ae1b1a\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.android\build-cache\5ad26c2300d6769168caec93efbb5fb01f4776c4\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.android\build-cache\88432f4231c85e8637366017bf89a004169e02d2\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.android\build-cache\11154df4abd6172f569ffa03891c59a1aa844d9a\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.android\build-cache\37c4ee1777d84273fba31859889fa0b11993903b\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.android\build-cache\e272853a3cdaaf1fa54a116d0c96b62fa26e9609\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.android\build-cache\7d1540ec6d8fa62274dcf004cd6e04cee98b7c9c\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\anan_\.android\build-cache\a9fda206c14b32c6d7238d66f1bd5c519f3afcee\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.android\build-cache\0273f1206782fd9959472b6535ee27ba795826f5\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.android\build-cache\921bc56ba78b3c3a17c568708304f820f234d875\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.android\build-cache\368a7a927d0046aa6308d5a4bc9ad91bfc629339\output\AndroidManifest.xml:20:5-43
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.android\build-cache\f53869d736eccdb54464c4e79c5a7be3fc6706e0\output\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\175caf050c3220b70ea59bd820777171\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\175caf050c3220b70ea59bd820777171\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\ce09b0616b094b7c560408def801513b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\ce09b0616b094b7c560408def801513b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\19b21233defe4d555909122141646397\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.0.aar\19b21233defe4d555909122141646397\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.2.0.aar\6e09183cdaa740bf046d9a5a56729e0e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.2.0.aar\6e09183cdaa740bf046d9a5a56729e0e\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\71e0411b519b7299a061f008052e9720\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\71e0411b519b7299a061f008052e9720\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\f6feafada37d28ee3c0d85507e7648a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.0.aar\f6feafada37d28ee3c0d85507e7648a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\0cecb518b9dd7189818cc3c7d801cd0f\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.0.aar\0cecb518b9dd7189818cc3c7d801cd0f\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\78dd288c5df0f54ef8914c5ca64494e0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.0.aar\78dd288c5df0f54ef8914c5ca64494e0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\0484291eac5aeee722e20d9fc001abff\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.0.aar\0484291eac5aeee722e20d9fc001abff\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\6951a7122d9bac12cceabea06bf9b71b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.0.aar\6951a7122d9bac12cceabea06bf9b71b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\c11201f734598f50e64cfa6fec51683f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\c11201f734598f50e64cfa6fec51683f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\ed334fc415ccc81ee6708cfc158e42ef\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.0.aar\ed334fc415ccc81ee6708cfc158e42ef\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\842f3278a8575314c98a105359e18430\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.0.aar\842f3278a8575314c98a105359e18430\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.android\build-cache\d554d7577b799242b2f32f7a787d40f6a9ae1b1a\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\anan_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.0.aar\ce09b0616b094b7c560408def801513b\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
+		ADDED from D:\Refined\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Refined\app\src\main\AndroidManifest.xml
